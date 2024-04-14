@@ -53,7 +53,7 @@ const images = [
   "src/assets/engagement/14.jpg",
   "src/assets/engagement/15.jpg",
 
-  "src/assets/groom/1.jpg",
+  "src/assets/groom/1.JPEG",
   "src/assets/groom/2.jpg",
   "src/assets/groom/413D1982-3F44-4008-8871-A7F507E7B360.jpg",
   "src/assets/groom/9095D490-112B-4847-8291-2C5C453D1B14.JPEG",
@@ -68,6 +68,7 @@ const images = [
   "src/assets/groom/IMG_9564.JPG",
   "src/assets/groom/IMG_9983.JPG",
   "src/assets/groom/IMG_9984.JPG",
+  "src/assets/groom/IMG_9985.JPG",
   "src/assets/groom/IMG_9986.JPG",
 
   "src/assets/prewedding/1.JPEG",
@@ -85,7 +86,7 @@ const images = [
   "src/assets/prewedding/13.JPEG",
   "src/assets/prewedding/14.JPEG",
   "src/assets/prewedding/15.JPEG",
-  "src/assets/prewedding/16.JPEG",
+  "src/assets/prewedding/16.JPG",
   "src/assets/prewedding/17.JPEG",
   "src/assets/prewedding/18.JPEG",
   "src/assets/prewedding/19.JPEG",
