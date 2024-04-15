@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
+import { curve, heroBackground, robot } from "../assets";
 
 // import { brainwave } from "../assets";
 import { navigation } from "../constants";
@@ -35,9 +36,17 @@ const Header = () => {
         openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
-      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
+      <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4 ">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          TheClicks Photography 
+        <span className="inline-block relative italic font-bold text-purple-500">  TheClicks Photography 
+        <img
+                src={curve}
+                className="absolute top-full left-0 w-full xl:-mt-0.5"
+                width={62}
+                height={28}
+                alt="Curve"
+              /> 
+        </span>
           {/* <img src={brainwave} width={190} height={40} alt="WeddStudio" /> */}
         </a>
 
